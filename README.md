@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/-Apache%20Kafka-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://docs.confluent.io/kafka-clients/dotnet/current/overview.html)
 [![](https://img.shields.io/badge/-Redis-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://redis.io/docs/latest/develop/clients/dotnet/)
 
-Robust application with Clean Architecture, following Domain-Driven Design principles, implementing Kafka as a messaging service and Redis for caching. This project demonstrates a scalable and maintainable system design, capable of handling high-throughput data streams efficiently. Kafka is used for reliable asynchronous communication, while Redis provides fast, in-memory caching to improve performance.
+Robust application with `Clean Architecture`, following `Domain-Driven Design principles`, implementing `Apache Kafka` as a messaging service and `Redis` for caching. This project demonstrates a scalable and maintainable system design, capable of handling high-throughput data streams efficiently. `Apache Kafka` is used for reliable asynchronous communication, while `Redis` provides fast, in-memory caching to improve performance.
 
 ## Key features:
 - Kafka integration for high-throughput event streaming.
