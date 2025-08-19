@@ -19,7 +19,7 @@ Robust application with `Clean Architecture`, following `Domain-Driven Design` p
 - SQL Server
 
 ## Architecture Overview:
-## Domain-Driven Design principles.
+Domain-Driven Design principles.
 - `./src/Backend/App.Api`: Layer for API'.
   - `./Api.Api/Controllers`: Control by Swagger to simulate a products and orders.
     
