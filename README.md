@@ -18,6 +18,25 @@ Robust application with `Clean Architecture`, following `Domain-Driven Design` p
 - Docker & Docker Compose
 - SQL Server
 
+## Architecture Overview:
+## Domain-Driven Design principles.
+- `./src/Backend/App.Api`: Layer for API'.
+  - `./Api.Api/Controllers`: Control by Swagger to simulate a products and orders.
+    
+- `./src/Backend/App.Application`: This layer handles business rules, implements use cases, and manages AutoMapper mappings.
+- `./src/Backend/App.Application/DependencyInjectionExtension.cs`: Class responsible for registering and managing dependency injections.
+  
+- `.src/Backend/App.Domain`: Encapsulates the core business logic and domain entities, following Domain-Driven Design principles. This layer is independent of infrastructure and application concerns, ensuring that the core rules of the system remain isolated and maintainable.
+- `.src/Backend/App.Domain/Services`: This layer contains the service interfaces for Apache Kafka and Redis.
+
+- `./src/Backend/App.Infrastructure`: Implements all technical details required by the application, such as database access, external services, messaging systems, and caching. In Domain-Driven Design, this layer supports the domain and application layers without containing business rules, ensuring that technical concerns are separated from core logic.
+  
+  - `./src/Backend/App.Infrastructure/Services`: Contains the concrete implementations of external services such as Apache Kafka and Redis, handling messaging, caching, and other integration concerns. This layer connects the application and domain logic to the technical infrastructure while keeping business rules isolated.
+  - - `./src/Backend/App.Infrastructure/DependencyInjectionExtension.cs`: Class responsible for registering and managing dependency injections.
+
+- `./src/Shared/App.Communication`: Layer for Requests and Responses.
+- `./tests/Consumer/Kafka/Consumer.Kafka`: "Simple console application to test Kafka message consumption."
+
 ## Getting Started:
 - Clone the repository:
 ```bash
