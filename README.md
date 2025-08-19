@@ -11,7 +11,7 @@ Robust application with `Clean Architecture`, following `Domain-Driven Design` p
 - Domain-Driven Design principles.
 - SQL Server
 
-## Technologies Used
+## Technologies:
 - .NET
 - Apache Kafka
 - Redis
