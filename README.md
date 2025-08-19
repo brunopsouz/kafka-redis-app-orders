@@ -32,9 +32,10 @@ Domain-Driven Design principles.
 - `./src/Backend/App.Infrastructure`: Implements all technical details required by the application, such as database access, external services, messaging systems, and caching. In Domain-Driven Design, this layer supports the domain and application layers without containing business rules, ensuring that technical concerns are separated from core logic.
   
   - `./src/Backend/App.Infrastructure/Services`: Contains the concrete implementations of external services such as Apache Kafka and Redis, handling messaging, caching, and other integration concerns. This layer connects the application and domain logic to the technical infrastructure while keeping business rules isolated.
-  - - `./src/Backend/App.Infrastructure/DependencyInjectionExtension.cs`: Class responsible for registering and managing dependency injections.
+  -  `./src/Backend/App.Infrastructure/DependencyInjectionExtension.cs`: Class responsible for registering and managing dependency injections.
 
 - `./src/Shared/App.Communication`: Layer for Requests and Responses.
+  
 - `./tests/Consumer/Kafka/Consumer.Kafka`: "Simple console application to test Kafka message consumption."
 
 ## Getting Started:
