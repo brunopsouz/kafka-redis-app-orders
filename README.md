@@ -1,4 +1,4 @@
-# Kafka + Redis: Building Scalable and Robust Architectures.
+# Apache Kafka + Redis: Building Scalable and Robust Architectures.
 [![](https://img.shields.io/badge/-Apache%20Kafka-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://docs.confluent.io/kafka-clients/dotnet/current/overview.html)
 [![](https://img.shields.io/badge/-Redis-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://redis.io/docs/latest/develop/clients/dotnet/)
 
