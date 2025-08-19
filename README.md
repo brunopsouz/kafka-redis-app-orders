@@ -23,8 +23,8 @@ Domain-Driven Design principles.
 - `./src/Backend/App.Api`: Layer for API'.
   - `./Api.Api/Controllers`: Control by Swagger to simulate a products and orders.
     
-- `./src/Backend/App.Application`: This layer handles business rules, implements use cases, and manages AutoMapper mappings.
-- `./src/Backend/App.Application/DependencyInjectionExtension.cs`: Class responsible for registering and managing dependency injections.
+- `./src/Backend/App.Application`: Orchestrates use cases and application workflows, coordinating between the domain layer and infrastructure services.
+  - `./src/Backend/App.Application/DependencyInjectionExtension.cs`: Class responsible for registering and managing dependency injections.
   
 - `.src/Backend/App.Domain`: Encapsulates the core business logic and domain entities, following Domain-Driven Design principles. This layer is independent of infrastructure and application concerns, ensuring that the core rules of the system remain isolated and maintainable.
 - `.src/Backend/App.Domain/Services`: This layer contains the service interfaces for Apache Kafka and Redis.
