@@ -9,7 +9,7 @@ Robust application with `Clean Architecture`, following `Domain-Driven Design` p
 - Redis caching for fast data retrieval and improved application performance.
 - Clean Architecture Designed for scalability and extensibility.
 - Domain-Driven Design principles.
-- SQL Server
+- SQL Server.
 
 ## Technologies:
 - .NET
